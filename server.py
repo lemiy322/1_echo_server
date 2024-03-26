@@ -4,7 +4,7 @@ port=9090
 sock = socket.socket()
 sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 sock.bind(('', port))
-print("Server is starting")
+print("Server is bot starting")
 sock.listen(0)
 print("Port",port,"is listing")
 conn, addr = sock.accept()
